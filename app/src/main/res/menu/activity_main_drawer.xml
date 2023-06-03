@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/baseline_business_24"
+            android:title="@string/menu_business" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/baseline_account_balance_24"
+            android:title="@string/menu_account" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_collections_bookmark_24"
+            android:title="@string/menu_about" />
+        <item
+            android:id="@+id/nav_give"
+            android:icon="@drawable/baseline_handshake_24"
+            android:title="@string/menu_give" />
+    </group>
+    <item android:title="@string/communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/baseline_share_24"
+                android:title="@string/menu_share"/>
+
+            <item android:id="@+id/nav_email"
+                android:icon="@drawable/baseline_email_24"
+                android:title="@string/menu_email"/>
+
+    </menu>
+    </item>
+
+
+</menu>
